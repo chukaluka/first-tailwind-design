@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lobster&family=Outfit:wght@100;200;300&family=Raleway:ital,wght@1,200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+}
+
+.sec-div {
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+.first-h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.first-para {
+    color: hsl(215, 51%, 70%);
+}
+
+.sec-h4 {
+    color:hsl(178, 100%, 50%);
+}
+
+.third-h4 {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar-img {
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.first-span {
+    color: hsl(215, 51%, 70%);
+    letter-spacing: 1px;
+  
+}
+
+.second-span {
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
